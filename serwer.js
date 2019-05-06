@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 var logger = require('morgan');
 var cors = require('cors');
 const sgMail = require('@sendgrid/mail');
-var key = process.env.key = "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";
+var key = process.env.key = ;
 var fs = require('fs');
 
 app.use(bodyParser.json({limit: '2mb', extended: true}), cors());
